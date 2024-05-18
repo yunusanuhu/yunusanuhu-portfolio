@@ -1,0 +1,22 @@
+.nav-padding {
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.pic-radius {
+    border-radius: 25px;
+}
+
+.social-div {
+    margin: 50px 0px;
+       
+}
+
+.social-div > a {
+    margin: 0px 5px;
+     
+}
+
