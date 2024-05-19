@@ -6,9 +6,33 @@
     font-style: normal;
 }
 
+body {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color:#002d5b;
+}
+
+.first-section {
+    min-height: 100vh;
+}
 .pic-radius {
     border-radius: 25px;
 }
+
+.sec-div {
+    margin-top: 10px;
+}
+a {
+    color: #002d5b;
+  }
+  a:visited {
+    color: #002d5b;
+  }
+  a:hover {
+    color: #002d5b;
+  }
+ 
 
 .social-div {
     margin: 50px 0px;
@@ -20,3 +44,18 @@
      
 }
 
+footer {
+    background-color: #003285;
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.first-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-footer {
+    text-align: center;
+    padding: 30px;
+}

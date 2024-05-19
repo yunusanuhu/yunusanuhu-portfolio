@@ -13,6 +13,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/features/">
 </head>
 <body>
+  <section class = "first-section">
     <ul class="nav justify-content-center nav-padding">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -27,11 +28,11 @@
             <a class="nav-link" href="#">Blog</a>
           </li>
         <li class="nav-item">
-          <a class="nav-link">Contact</a>
+          <a class="nav-link" href="#">Contact</a>
         </li>
       </ul>
 
-      <div class="container col-xxl-8 px-4 py-5 sec-div">
+      <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
           <div class="col-10 col-sm-8 col-lg-6">
             <img src="./images/yunusa.jpg" class="d-block mx-lg-auto img-fluid pic-radius" alt="Bootstrap Themes" width="300px" height="300px" loading="lazy">
@@ -49,61 +50,98 @@
           </div>
         </div>
       </div>
-
+    </section>
       <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold text-body-emphasis">About Me</h1>
+        <h2 class=" fw-bold text-body-emphasis">About Me</h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">I am passionate about solving problems. I do this through creative thinking and coding out solutions, as a teacher and also as an entreprenuer.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">About Me</button>
+            <button type="button" class="btn btn-dark btn-lg px-4 gap-3">About Me</button>
           </div>
         </div>
       </div>
 
       <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold text-body-emphasis">Services</h1>
+        <h2 class=" fw-bold text-body-emphasis">Services</h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Values I can offer you, your brand/organization</p>
         </div>
       </div>
 
-      <div class="container px-4 py-5" id="featured-3">
+      <div class="container " id="featured-3">
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            
+            <h3 class="fs-2 text-body-emphasis">Web Development</h3>
+            <p>We can automate your process, put your business on global scale and proffer you a solution</p>
             <a href="#" class="icon-link">
-              Call to action
+              Check us out
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+            
+            <h3 class="fs-2 text-body-emphasis">Fleet Management</h3>
+            <p>Call in for your consultancy services on effective transportation management of your fleet</p>
             <a href="#" class="icon-link">
-              Call to action
+              Check on us
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
           <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
-              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
-            </div>
-            <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-            <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
+           
+            <h3 class="fs-2 text-body-emphasis">Contractors</h3>
+            <p>We are entreprenuers. We deal in contracts and general merchandise</p>
             <a href="#" class="icon-link">
-              Call to action
+              Check on us
               <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
             </a>
           </div>
         </div>
       </div>
+      <div class="px-4 py-5 my-5 text-center">
+        <h2 class=" fw-bold text-body-emphasis">Download my Resume</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">You can find my resume below</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Download</button>
+          </div>
+        </div>
+      </div>
+      <div class="px-4 py-5 my-5 text-center">
+        <h2 class=" fw-bold text-body-emphasis">Stay in Touch</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">Values I can offer you, your brand/organization</p>  
+        </div>
+        <div class="container">
+          <form>
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" size="25" placeholder="you@example.com">
+          <div class="invalid-feedback">
+            Stay in touch with my Work, Ideas, and Stories about Startups, Women, Financial Inclusion, Entrepreneurship, and Technology
+          </div>
+        </form>
+        </div>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+          <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Subscribe</button>
+        </div>
+      </div>
+
+      <footer >
+        <div class="first-footer container col-xxl-8 px-4 py-5 sec-div">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start social-div">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="https://x.com/home" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                <a href = "https://www.youtube.com/channel/UCbpguaBNHVmKR-FkEa1yQjg" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
+                <a href="https://www.linkedin.com/in/yunusa-nuhu-93070a74/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
+            </div>
+            <p class="d-grid gap-2 d-md-flex justify-content-md-start social-div">consult@yunusanuhu.com</p>
+        </div>
+        <div class="second-footer">
+          <p>Copyright &copy; 2024 Yunusa Nuhu</p>
+        </div>
+      </footer>
       <script src="https://kit.fontawesome.com/48f5c87777.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
