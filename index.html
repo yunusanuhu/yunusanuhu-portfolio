@@ -13,34 +13,38 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/features/">
 </head>
 <body>
+
   <section class = "first-section">
-    <ul class="nav justify-content-center nav-padding">
+    
+  
+      <ul class="nav justify-content-center nav-padding">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#About">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Engagement</a>
+          <a class="nav-link" href="#Services">Services</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Blog</a>
+            <a class="nav-link" href="#Resume">Resume</a>
           </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#Contact">Contact</a>
         </li>
       </ul>
+        
 
       <div class="container col-xxl-8 px-4 py-5">
         <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-          <div class="col-10 col-sm-8 col-lg-6">
-            <img src="./images/yunusa.jpg" class="d-block mx-lg-auto img-fluid pic-radius" alt="Bootstrap Themes" width="300px" height="300px" loading="lazy">
+          <div class="col-10 col-sm-8 col-lg-6 img-container">
+            <img src="./images/yunusa.jpg" class="d-block mx-lg-auto img-fluid pic-radius " alt="Bootstrap Themes" width="300px" height="300px" loading="lazy">
           </div>
           <div class="col-lg-6">
-            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Yunusa Nuhu Usman</h1>
-            <p class="lead">Frontend Web Developer, Fleet Manager, Teacher, Entreprenuer, Husband and a Tijjany</p>
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start social-div">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 text-allignment">Yunusa Nuhu Usman</h1>
+            <p class="lead text-allignment">Frontend Web Developer, Fleet Manager, Teacher, Entreprenuer, Husband and a Tijjany</p>
+            <div class="d-grid gap-2 d-flex justify-content-center justify-content-md-start social-div horizontal-allignment">
                 <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
                 <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
                 <a href="https://x.com/home" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
@@ -52,7 +56,7 @@
       </div>
     </section>
       <div class="px-4 py-5 my-5 text-center">
-        <h2 class=" fw-bold text-body-emphasis">About Me</h2>
+        <h2 class=" fw-bold text-body-emphasis" id="About">About Me</h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">I am passionate about solving problems. I do this through creative thinking and coding out solutions, as a teacher and also as an entreprenuer.</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -62,14 +66,14 @@
       </div>
 
       <div class="px-4 py-5 my-5 text-center">
-        <h2 class=" fw-bold text-body-emphasis">Services</h2>
+        <h2 class=" fw-bold text-body-emphasis" id="Services">Services</h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Values I can offer you, your brand/organization</p>
         </div>
       </div>
 
-      <div class="container " id="featured-3">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="container text-allignment" id="featured-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 .text-allignment">
           <div class="feature col">
             
             <h3 class="fs-2 text-body-emphasis">Web Development</h3>
@@ -100,7 +104,7 @@
         </div>
       </div>
       <div class="px-4 py-5 my-5 text-center">
-        <h2 class=" fw-bold text-body-emphasis">Download my Resume</h2>
+        <h2 class=" fw-bold text-body-emphasis" id="Resume">Download my Resume</h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">You can find my resume below</p>
           <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
@@ -109,30 +113,25 @@
         </div>
       </div>
       <div class="px-4 py-5 my-5 text-center">
-        <h2 class=" fw-bold text-body-emphasis">Stay in Touch</h2>
+        <h2 class=" fw-bold text-body-emphasis" id="Contact">Stay in Touch</h2>
         <div class="col-lg-6 mx-auto">
           <p class="lead mb-4">Values I can offer you, your brand/organization</p>  
         </div>
-        <div class="container">
-          <form>
-          <label for="email" class="form-label">Email</label>
-          <input type="email" class="form-control" id="email" size="25" placeholder="you@example.com">
-          <div class="invalid-feedback">
-            Stay in touch with my Work, Ideas, and Stories about Startups, Women, Financial Inclusion, Entrepreneurship, and Technology
-          </div>
+        <form>
+          <label for="email" class="form-label" style="display: block;">Email</label>
+          <input type="email"  id="email" size="60" placeholder="you@example.com">
         </form>
-        </div>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button type="button" class="btn btn-dark btn-lg px-4 gap-3">Subscribe</button>
         </div>
       </div>
 
-      <footer >
+      <footer>
         <div class="first-footer container col-xxl-8 px-4 py-5 sec-div">
-            <div class="d-grid gap-2 d-md-flex justify-content-md-start social-div">
-                <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
-                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                <a href="https://x.com/home" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
+            <div class="d-grid gap-2 d-flex justify-content-md-start social-div link-color">
+                <a href="https://web.facebook.com/yunusa.nuhu.3" target="_blank"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
+                <a href="https://www.instagram.com/yunusanuh" target="_blank"><i class="fa-brands fa-instagram fa-xl"></i></a>
+                <a href="https://x.com/YunusaaNuhu" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
                 <a href = "https://www.youtube.com/channel/UCbpguaBNHVmKR-FkEa1yQjg" target="_blank"><i class="fa-brands fa-youtube fa-xl"></i></a>
                 <a href="https://www.linkedin.com/in/yunusa-nuhu-93070a74/" target="_blank"><i class="fa-brands fa-linkedin-in fa-xl"></i></a>
             </div>

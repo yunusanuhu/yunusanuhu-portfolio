@@ -30,7 +30,7 @@ a {
     color: #002d5b;
   }
   a:hover {
-    color: #002d5b;
+    color: #00eeff;
   }
  
 
@@ -58,4 +58,48 @@ footer {
 .second-footer {
     text-align: center;
     padding: 30px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.link-color {
+
+}
+
+@media (max-width: 540px) {
+    
+
+    .img-container { 
+        width: 100%;
+        display: flex;
+        justify-content: center;        
+}
+    .text-allignment {
+        text-align: center;
+    }
+
+    input{
+        width: 100%;
+        box-sizing:border-box
+       }
+
+       .first-footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        
+    }
+
+    .link-color a:link {
+        color: white;
+    }
+
+    footer a:hover {
+        color: #00eeff;
+    }
+
+    
 }
